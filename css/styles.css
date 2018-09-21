@@ -1,6 +1,14 @@
 .jumbotron {
   background-color: #20c997;
+
 }
 .container {
   background-color: #6c757d;
+
+}
+.btn-primary {
+  background-color: #20c997;
+  margin: #20c997;
+border-color: #20c997;
+
 }
