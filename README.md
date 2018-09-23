@@ -32,6 +32,6 @@ Unavailable
 
 
 ### Link to Live Site on Github Pages
-
+https://joy-vivika.github.io/Quiz-board/
 
 ### Copyright and Licensing Information
