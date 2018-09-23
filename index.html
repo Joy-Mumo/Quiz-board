@@ -19,10 +19,11 @@
         <p><strong>Below are three multiple choice questions to test your understanding of javascript
           language.<br>Answer them all as adequately as possible.</strong><hr></p>
 
-          <div name="quiz" id="quiz">
+          <div>
+            <div class="one">
             <h5>1.Choose the correct statement.</h5>
             <label>
-              <input type="radio" name="q1" id="v" value="10">
+              <input type="radio" name="q1" id="v" value="0">
               Javascript is a markup language
               that uses tags to identify content.
             </label><br>
@@ -34,12 +35,13 @@
             </label><br>
 
             <label>
-              <input type="radio" name="q1" id="v2" value="0">
+              <input type="radio" name="q1" id="v2" value="10">
              Javascript is a language used to
               create interactive web elements.
             </label>
             <br>
-
+          </div>
+          <div class="two" >
             <h5>2.Javascript code is contained in the script tags.True or False?.</h5>
             <label>
               <input type="radio" name="q2" id="v3" value=10>
@@ -49,7 +51,8 @@
               <input type="radio" name="q2" id="v4" value="0">
               False
             </label><br>
-
+          </div>
+          <div class="three">
             <h5>3.Where is the script tag typically placed?.</h5>
             <label>
               <input type="radio" name="q3"  id="v5" value="10">
@@ -60,14 +63,15 @@
               Before the HTML tag
             </label><br>
             <label>
-              <input type="radio" name="Q3" id="v7" value="0">
+              <input type="radio" name="q3" id="v7" value="0">
               After the HTML tag
             </label><br>
+          </div>
           </div>
           <button type="submit" class="btn-primary" id="button" onclick="check();">Submit</button>
 
           <div id="display">
-            <p id="number correct"> </p>
+            <p id="answer"> </p>
           </div>
           <h5>Quiz is scored out of 30 marks.<h5>
 
