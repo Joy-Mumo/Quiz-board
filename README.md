@@ -9,7 +9,6 @@ Open link to program on a device connected to the interenet.Select three answers
 ### Behaviour Driven Development
 * When a user submits their three answers.
 * The program stores the answers and equates their values.
-* If an answer is correc,10 points are awarded,if its wrong 0 points are awareded.
 * The program adds up the total from each question and texts back the total value.
 * If no answer is right ,user gets 0 points.
 * If only one answer is right,user gets 10 points.
